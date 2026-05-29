@@ -1,0 +1,4 @@
+:HL["/torres-portfolio/_next/static/chunks/123-rje4e-b6k.css","style"]
+:HC["/",""]
+:HL["/torres-portfolio/_next/static/chunks/0wm46fhxygik5.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"txkd3rM6ZWhCpkjLFqf40"}
