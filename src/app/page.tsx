@@ -1,8 +1,8 @@
 import Styles from "@/src/css/content.module.css"
-import Intro from "@/components/intro";
-import Works from "@/components/works";
-import Skills from "@/components/skills";
-import References from "@/components/references";
+import Intro from "@/src/components/intro";
+import Works from "@/src/components/works";
+import Skills from "@/src/components/skills";
+import References from "@/src/components/references";
 
 export default function Home() {
   return (

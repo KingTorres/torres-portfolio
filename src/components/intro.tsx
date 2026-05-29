@@ -1,5 +1,5 @@
 "use client"
-import { useOrientation } from "@/hooks/orientation"
+import { useOrientation } from "@/src/hooks/orientation"
 import Image from "next/image"
 import Styles from "@/src/css/intro.module.css"
 
