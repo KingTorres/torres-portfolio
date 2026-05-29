@@ -18,17 +18,25 @@ export function MultiSeriesRadar() {
   return (
         <RadarChart
         series={[{ 
-            data: [95, 75, 98, 40, 80]
+            data: [95, 75, 98, 40, 80],
+            color: '#71c6ff',
         }]}
         radar={{
             max: 100,
-            metrics: ['Responsiveness', 'Frontend', 'Layout', 'Backend', 'Graphics'],
-            
+            metrics: ['Responsiveness', 'Frontend', 'Layout', 'Backend', 'Graphics']
         }}
         sx={{
         '& text, & .MuiChartsRadar-metricLabel': {
           fill: '#ffffff7d !important'
-        }
+        },
+        '& .MuiRadarChart-gridDivider': {
+            stroke: 'rgba(255, 255, 255, 0.74) !important'
+        },
+        '& .MuiRadarChart-seriesArea': {
+            fill: '#4da0e8 !important',
+            fillOpacity: '0.15 !important',
+            stroke: '#71c6ff'
+        },
       }}
     />
   );

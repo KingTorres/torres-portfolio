@@ -75,10 +75,6 @@
   height: 60vw;
   margin: auto;
 }
-::v-deep(.vue-apexcharts),
-::v-deep(.apexcharts-canvas > svg ) {
-  width: 100% !important;
-}
 @media (orientation: landscape) {
   .tools {
     grid-template-columns: repeat(10, 1fr);

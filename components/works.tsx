@@ -14,7 +14,7 @@ function gotoMegabet() {
 const Work = () => {
     return(
         <>
-        <div className={Styles.sectionTitle}>Frontend Developer</div>
+        <div className={Styles.sectionTitle}>Works</div>
         <div className={Styles.projectList}>
             <div className={`${Styles.listItem} ${Styles.active}`} onClick={gotoMegabet}>
                 <div className={Styles.logo}>

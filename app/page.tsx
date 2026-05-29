@@ -7,16 +7,16 @@ import References from "@/components/references";
 export default function Home() {
   return (
     <div className={Styles.content}>
-      <section className={Styles.section}>
+      <section id="intro" className={Styles.section}>
         <Intro/>
       </section>
-      <section className={Styles.section}>
+      <section id="works" className={Styles.section}>
         <Works/>
       </section>
-      <section className={`${Styles.section} ${Styles.skill}`}>
+      <section id="skills" className={`${Styles.section} ${Styles.skill}`}>
         <Skills/>
       </section>
-      <section className={Styles.section}>
+      <section id="references" className={Styles.section}>
         <References/>
       </section>
     </div>
