@@ -1,5 +1,5 @@
 import Styles from "@/css/content.module.css"
-import Intro from "@/pages/intro";
+import Intro from "@/components/intro";
 
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
     <div className={Styles.content}>
       <section className={Styles.section}>
         <Intro/>
+
       </section>
     </div>
   );

@@ -18,29 +18,6 @@ section.section {
   background: var(--background-color);
   scroll-margin-top: 10vh;
 }
-section.section .section-title {
-  font-size: .85em;
-  display: flex;
-  align-items: center;
-  gap: .5em;
-  width: 100%;
-  position: relative;
-  width: fit-content;
-  padding: 0.2em .5em;
-  border-radius: 1em;
-  background: #ffffff;
-  margin-top: 0.5em;
-  color: var(--accent-color);
-}
-
-section.section .section-title::before {
-  font-size: inherit;
-  content: '';
-  width: .5em;
-  height: .5em;
-  border-radius: 50%;
-  background: var(--accent-color);
-}
 @media (orientation: landscape) {
   .content {
     width: 100%;

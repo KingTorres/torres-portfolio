@@ -1,4 +1,27 @@
 
+.sectionTitle {
+  font-size: .85em;
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  width: 100%;
+  position: relative;
+  width: fit-content;
+  padding: 0.2em .5em;
+  border-radius: 1em;
+  background: #ffffff;
+  margin-top: 0.5em;
+  color: var(--accent-color);
+}
+
+.sectionTitle::before {
+  font-size: inherit;
+  content: '';
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+  background: var(--accent-color);
+}
 .introBody {
   width: 100%;
   display: grid;
@@ -80,7 +103,7 @@
   height: 100%;
   transform: scale(1.05);
 }
-.about-body {
+.aboutBody {
   background: #f0f0f0;
   margin: 1.2em 0;
   padding: 1.5em;
@@ -92,25 +115,25 @@
   gap: 0.5em;
   cursor: pointer;
 }
-.about-body > .item {
+.aboutBody > .item {
   display: flex;
 }
-.about-body > .item > .label {
+.aboutBody > .item > .label {
   text-transform: capitalize;
   min-width: 6.5em;
   opacity: 0.7;
   font-family: "poppins-medium";
   color: #828282;
 }
-.about-body > .item:first-child > .data {
+.aboutBody > .item:first-child > .data {
   color: blue;
 }
-.about-body > .item > .data {
+.aboutBody > .item > .data {
   overflow-wrap: break-word;
   word-break: break-word;
   width: 100%;
 }
-.education-body {
+.educationBody {
   width: 100%;
   font-size: 0.8em;
   padding: 0.8em;
@@ -118,7 +141,7 @@
   flex-direction: column;
   gap: 1em;
 }
-.education-body > .item {
+.educationBody > .item {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -127,13 +150,13 @@
   border-radius: 1em;
   background: #f0f0f0;
 }
-.education-body > .item.active:hover {
+.educationBody > .item.active:hover {
   filter: brightness(105%);
   transform: scale(1.01);
   box-shadow: 0.1em 0.1em 0.2em #0000002f;
   cursor: pointer;
 }
-.education-body > .item > .logo {
+.educationBody > .item > .logo {
   min-width: 3.5em;
   min-height: 3.5em;
   width: 3.5em;
@@ -142,23 +165,23 @@
   position: relative;
   border: 0.1em solid #9c9c9c;
 }
-.education-body > .item > .logo > img {
+.educationBody > .item > .logo > img {
   width: 100%;
   height: 100%;
   aspect-ratio: 1/1;
 }
-.education-body > .item > .name {
+.educationBody > .item > .name {
   display: flex;
   flex-direction: column;
   justify-self: left;
   width: 100%;
   font-size: 0.9em;
 }
-.education-body > .item > .name > div:nth-child(2) {
+.educationBody > .item > .name > div:nth-child(2) {
   font-size: 0.8em;
   opacity: 0.5;
 }
-.education-body > .item > .action {
+.educationBody > .item > .action {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,17 +217,17 @@
   .introButton button {
     padding: 0.7em 0;
   }
-  .about-body {
+  .aboutBody {
     font-size: 0.7em;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     gap: 0.3em;
     padding: 1.5em;
   }
-  .about-body:active {
+  .aboutBody:active {
     transform: scale(1.02);
   }
-  .education-body {
+  .educationBody {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
