@@ -18,6 +18,10 @@ section.section {
   background: var(--background-color);
   scroll-margin-top: 10vh;
 }
+section.section.skill {
+  background: linear-gradient(45deg, #00086d, #962121);
+  padding-bottom: 0;
+}
 @media (orientation: landscape) {
   .content {
     width: 100%;

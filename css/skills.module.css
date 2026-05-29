@@ -1,0 +1,90 @@
+.sectionTitle {
+  font-size: .85em;
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  width: 100%;
+  position: relative;
+  width: fit-content;
+  padding: 0.2em .5em;
+  border-radius: 1em;
+  background: transparent;
+  margin-top: 0.5em;
+  color: var(--accent-color);
+}
+
+.sectionTitle::before {
+  font-size: inherit;
+  content: '';
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+  background: var(--accent-color);
+}
+.tools {
+  background: #f0f0f0;
+  padding: 2em 1em;
+  border-radius: 1em;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-size: 0.6em;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1em;
+  gap: 1em;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #2323234d, #2f80dc4b);
+}
+.tools > .item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+}
+.tools > .item > .icon {
+  width: 80%;
+  aspect-ratio: 1/1;
+  padding: 0.5em;
+  border-radius: 0.6em;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.tools > .item > .icon .remarks {
+  position: absolute;
+  background: rgb(101, 101, 101);
+  top: -1em;
+  right: -1em;
+  font-size: 0.7em;
+  border-radius: 0.5em;
+  padding: 0 0.5em;
+
+}
+.tools > .item > .icon > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+}
+.chartWrapper {
+  width: 80vw;
+  height: 60vw;
+  margin: auto;
+}
+::v-deep(.vue-apexcharts),
+::v-deep(.apexcharts-canvas > svg ) {
+  width: 100% !important;
+}
+@media (orientation: landscape) {
+  .tools {
+    grid-template-columns: repeat(10, 1fr);
+  }
+  .chartWrapper {
+    height: 30vw;
+    width: 40vw;
+  }
+}

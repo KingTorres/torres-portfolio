@@ -1,0 +1,80 @@
+
+.sectionTitle {
+  font-size: .85em;
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  width: 100%;
+  position: relative;
+  width: fit-content;
+  padding: 0.2em .5em;
+  border-radius: 1em;
+  background: #ffffff;
+  margin-top: 0.5em;
+  color: var(--accent-color);
+}
+
+.sectionTitle::before {
+  font-size: inherit;
+  content: '';
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+  background: var(--accent-color);
+}
+.projectList {
+  height: 100%;
+  width: 100%;
+  background: #f0f0f0;
+  padding: 1.5em 1em;
+  margin: 0.5em 0;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+.listItem {
+  border-radius: 0.5em;
+  padding: 0.8em;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  background: #ffffff;
+  box-shadow: 0.1em 0.1em 0.2em #0000002f;
+}
+.listItem.active:hover {
+  transform: scale(1.02);
+  filter: brightness(105%);
+  cursor: pointer;
+}
+.listItem > .logo {
+  width: 2.5em;
+  height: 2.5em;
+}
+.listItem > .logo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.listItem > .name {
+  font-size: 0.9em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.listItem > .name > .subTitle {
+  opacity: 0.5;
+  font-size: 0.6em;
+}
+.listItem > .action {
+  opacity: 0.5;
+}
+@media (orientation: landscape) {
+  .projectList {
+    padding: 1.5em 2.5em;
+  }
+  .listItem {
+    padding: 0.8em 2em;
+  }
+}
