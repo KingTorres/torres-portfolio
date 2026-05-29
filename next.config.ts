@@ -2,19 +2,19 @@ import type { NextConfig } from "next";
 
 const isProd = process.env.NODE_ENV === 'production';
 // Replace 'your-repo-name' with the exact name of your GitHub repository
-const repoName = 'torres-portfolio'; 
+const repoName = 'your-repo-name'; 
 
 const nextConfig: NextConfig = {
-  // 1. Force Next.js to output static HTML/CSS/JS files
+  // 1. Force Next.js to compile your app into static HTML/CSS/JS files
   output: 'export',
 
-  // 2. Add the repository name prefix for production links
+  // 2. Prefix your links with the repo name so navigation works on GitHub Pages
   basePath: isProd ? `/${repoName}` : '',
 
-  // 3. Fix asset paths (images, stylesheets) in production
+  // 3. Prefix your assets (CSS, JS) so they load from the correct GitHub path
   assetPrefix: isProd ? `/${repoName}/` : '',
 
-  // 4. Disable image optimization (GitHub Pages cannot run the backend image optimizer)
+  // 4. Disable default server-side image optimization (GitHub Pages is static)
   images: {
     unoptimized: true,
   },
