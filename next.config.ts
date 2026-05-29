@@ -4,9 +4,10 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",
-  // Applies subfolder paths only when building for production deployment
+  // Tells Next.js that the site is hosted under the /torres-portfolio subfolder
   basePath: isProd ? "/torres-portfolio" : "",
-  assetPrefix: isProd ? "/torres-portfolio/" : "",
+  // Injects the correct repository prefix path directly into your CSS files
+  assetPrefix: isProd ? "/torres-portfolio/" : "", 
   images: {
     unoptimized: true,
   },
