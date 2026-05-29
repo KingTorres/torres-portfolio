@@ -1,5 +1,5 @@
 "use client"
-import Styles from "@/css/works.module.css"
+import Styles from "@/src/css/works.module.css"
 import Image from "next/image";
 
 // Images

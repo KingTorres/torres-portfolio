@@ -1,4 +1,4 @@
-import Styles from "@/css/content.module.css"
+import Styles from "@/src/css/content.module.css"
 import Intro from "@/components/intro";
 import Works from "@/components/works";
 import Skills from "@/components/skills";

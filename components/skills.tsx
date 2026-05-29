@@ -1,5 +1,5 @@
 "use client"
-import Styles from "@/css/skills.module.css"
+import Styles from "@/src/css/skills.module.css"
 import Image from "next/image"
 import { RadarChart } from '@mui/x-charts/RadarChart';
 // Image

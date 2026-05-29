@@ -1,7 +1,7 @@
 "use client"
 import { useOrientation } from "@/hooks/orientation"
 import Image from "next/image"
-import Styles from "@/css/intro.module.css"
+import Styles from "@/src/css/intro.module.css"
 
 import DownloadIcon from '@/public/assets/svg/DownloadIcon'
 import ClipboardIcon from '@/public/assets/svg/ClipboardIcon'

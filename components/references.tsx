@@ -1,5 +1,5 @@
 'use client'
-import Styles from "@/css/references.module.css"
+import Styles from "@/src/css/references.module.css"
 
 const copyNumber = async (value: any) => {
   try {

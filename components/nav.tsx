@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
-import styles from '@/css/nav.module.css'
+import styles from '@/src/css/nav.module.css'
 import HomeIcon from '@/public/assets/svg/HomeIcon'
 import FolderIcon from '@/public/assets/svg/FolderIcon'
 import ToolsIcon from '@/public/assets/svg/ToolsIcon'
