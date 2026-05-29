@@ -1,10 +1,14 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
-  output: 'export',            // Enables the static export feature
-  basePath: '/torres-portfolio', // Replace with your exact GitHub repository name
+  output: "export",
+  // Applies subfolder paths only when building for production deployment
+  basePath: isProd ? "/torres-portfolio" : "",
+  assetPrefix: isProd ? "/torres-portfolio/" : "",
   images: {
-    unoptimized: true,         // Disables server-side image optimization
+    unoptimized: true,
   },
 };
 
