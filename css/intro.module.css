@@ -48,6 +48,10 @@
   justify-content: center;
   gap: 0.5em;
 }
+.introBody .description .forLandscape {
+  display: none;
+}
+
 .introButton {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -208,6 +212,9 @@
     justify-content: center;
     align-items: center;
     gap: 0.2em;
+  }
+  .introBody .description .forLandscape {
+    display: block;
   }
   .introButton {
     margin: 1em 0;

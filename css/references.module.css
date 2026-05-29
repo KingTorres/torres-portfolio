@@ -1,0 +1,76 @@
+.sectionTitle {
+  font-size: .85em;
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  width: 100%;
+  position: relative;
+  width: fit-content;
+  padding: 0.2em .5em;
+  border-radius: 1em;
+  background: #ffffff;
+  margin-top: 0.5em;
+  color: var(--accent-color);
+}
+
+.sectionTitle::before {
+  font-size: inherit;
+  content: '';
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+  background: var(--accent-color);
+}
+.referenceList {
+  height: 100%;
+  width: 100%;
+  background: #f0f0f0;
+  padding: 1.5em 1em;
+  margin: 0.5em 0;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+.listItem {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #949494;
+  background: #ffffff;
+  box-shadow: 0.1em 0.1em 0.2em #0000002f;
+  padding: 1em 1.5em;
+  border-radius: 1em;
+}
+.listItem > .name {
+  font-family: "poppins-medium";
+  color: #000000;
+}
+.listItem > .position {
+  font-family: "poppins-medium";
+  font-size: 0.9em;
+}
+.listItem > .department {
+  font-size: 0.8em;
+}
+.listItem > .contact {
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  color: blue;
+  margin-top: 0.3em;
+  cursor: pointer;
+}
+@media (orientation: landscape) {
+  .referenceList {
+    flex-direction: row;
+    padding: 0;
+    background: transparent;
+  }
+  .listItem {
+    width: 100%;
+    font-size: 0.7em;
+    background: #f1f1f1;
+    color: #636363;
+  }
+}

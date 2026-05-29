@@ -64,7 +64,7 @@ const Intro = () => {
     const orientation = useOrientation()
     return (
         <>
-            <div className={Styles.sectionTitle}>Frontend Developer</div>
+            <div className={Styles.sectionTitle}>Frontend / Web Designer</div>
             <div className={Styles.introBody}>
                 <div className={Styles.details}>
                     <div className={Styles.greetings}>Hi, I'm Michael Torres</div>
@@ -74,8 +74,8 @@ const Intro = () => {
                         {
                             orientation === 'landscape' ?
                             (<>
-                                <div>Layout Designer</div>
-                                <div>Reactive UI/UX</div>
+                                <div className={Styles.forLandscape}>Layout Designer</div>
+                                <div className={Styles.forLandscape}>Reactive UI/UX</div>
                             </>
                             ) : null
                         }
