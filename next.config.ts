@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   output: "export",
   // Tells Next.js that the site is hosted under the /torres-portfolio subfolder
   basePath: isProd ? "/torres-portfolio" : "",
-  // Injects the correct repository prefix path directly into your CSS files
-  assetPrefix: isProd ? "/torres-portfolio/" : "", 
+  // REMOVE the trailing slash from the assetPrefix
+  assetPrefix: isProd ? "/torres-portfolio" : "", 
   images: {
     unoptimized: true,
   },
