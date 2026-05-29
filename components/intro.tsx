@@ -3,15 +3,15 @@ import { useOrientation } from "@/hooks/orientation"
 import Image from "next/image"
 import Styles from "@/css/intro.module.css"
 
-import DownloadIcon from '@/assets/svg/DownloadIcon'
-import ClipboardIcon from '@/assets/svg/ClipboardIcon'
+import DownloadIcon from '@/public/assets/svg/DownloadIcon'
+import ClipboardIcon from '@/public/assets/svg/ClipboardIcon'
 
 import Details from '@/constants/details.json'
 // image
-import AvatarSmile from '@/assets/img/avatar/avatar-smile.webp'
-import Udemy from '@/assets/img/logo/udemy.webp'
-import Tcu from '@/assets/img/logo/tcu.webp'
-import Ubnhs from '@/assets/img/logo/ubnhs.webp'
+import AvatarSmile from '@/public/assets/img/avatar/avatar-smile.webp'
+import Udemy from '@/public/assets/img/logo/udemy.webp'
+import Tcu from '@/public/assets/img/logo/tcu.webp'
+import Ubnhs from '@/public/assets/img/logo/ubnhs.webp'
 
 
 function DownloadCV() {

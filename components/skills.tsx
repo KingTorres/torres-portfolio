@@ -3,16 +3,16 @@ import Styles from "@/css/skills.module.css"
 import Image from "next/image"
 import { RadarChart } from '@mui/x-charts/RadarChart';
 // Image
-import gitlabLogo from "@/assets/img/logo/gitlab.webp"
-import githubLogo from "@/assets/img/logo/github.webp"
-import vueLogo from "@/assets/img/logo/vue.webp"
-import reactLogo from "@/assets/img/logo/react.webp"
-import nextLogo from "@/assets/img/logo/next.webp"
-import nodeLogo from "@/assets/img/logo/node.webp"
-import typescriptLogo from "@/assets/img/logo/typescript.webp"
-import photoshopLogo from "@/assets/img/logo/photoshop.webp"
-import html5Logo from "@/assets/img/logo/html5.webp"
-import css3Logo from "@/assets/img/logo/css3.webp"
+import gitlabLogo from "@/public/assets/img/logo/gitlab.webp"
+import githubLogo from "@/public/assets/img/logo/github.webp"
+import vueLogo from "@/public/assets/img/logo/vue.webp"
+import reactLogo from "@/public/assets/img/logo/react.webp"
+import nextLogo from "@/public/assets/img/logo/next.webp"
+import nodeLogo from "@/public/assets/img/logo/node.webp"
+import typescriptLogo from "@/public/assets/img/logo/typescript.webp"
+import photoshopLogo from "@/public/assets/img/logo/photoshop.webp"
+import html5Logo from "@/public/assets/img/logo/html5.webp"
+import css3Logo from "@/public/assets/img/logo/css3.webp"
 
 export function MultiSeriesRadar() {
   return (

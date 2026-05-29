@@ -3,9 +3,9 @@ import Styles from "@/css/works.module.css"
 import Image from "next/image";
 
 // Images
-import megabetLogo from "@/assets/img/logo/megabet_logo_single.webp"
-import cgmLogo from "@/assets/img/logo/cgm.webp"
-import asiatypeLogo from "@/assets/img/logo/asiatype.webp"
+import megabetLogo from "@/public/assets/img/logo/megabet_logo_single.webp"
+import cgmLogo from "@/public/assets/img/logo/cgm.webp"
+import asiatypeLogo from "@/public/assets/img/logo/asiatype.webp"
 
 
 function gotoMegabet() {
