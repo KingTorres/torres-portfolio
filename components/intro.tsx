@@ -115,6 +115,27 @@ const Intro = () => {
                     <div className={Styles.action}>{`>`}</div>
                 </div>
             </div>
+            <div className={Styles.sectionTitle}>Education</div>
+            <div className={Styles.educationBody}>
+                <div className={Styles.item}>
+                    <div className={Styles.logo}>
+                        <Image src={Tcu} alt="tcu" />
+                    </div>
+                    <div className={Styles.name}>
+                        <div>Taguig City University</div>
+                        <div>Bachelor in Computer Science</div>
+                    </div>
+                </div>
+                <div className={Styles.item}>
+                    <div className={Styles.logo}>
+                        <Image src={Ubnhs} alt="ubnhs" />
+                    </div>
+                    <div className={Styles.name}>
+                        <div>Upper Bicutan National Highschool</div>
+                        <div>2008&ndash;2012</div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
