@@ -1,4 +1,4 @@
-:HL["/torres-portfolio/_next/static/chunks/0akq-kifg-wi2.css","style"]
+:HL["/your-repo-name/_next/static/chunks/0akq-kifg-wi2.css","style"]
 :HC["/",""]
-:HL["/torres-portfolio/_next/static/chunks/03ukmky4k1s_u.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"T4eycIUAkl_A2q7v2zsCH"}
+:HL["/your-repo-name/_next/static/chunks/03ukmky4k1s_u.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"vnSle78T3Quce2mFl4plc"}
