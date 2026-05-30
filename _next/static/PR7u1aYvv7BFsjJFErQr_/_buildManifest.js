@@ -1,16 +1,16 @@
 self.__BUILD_MANIFEST = {
   "/_error": [
-    "static/chunks/0k8p-h4bhzrn4.js"
+    "static/chunks/0ofp4.e22xd-m.js"
   ],
   "/about": [
-    "static/chunks/0px1z958ht52b.js"
+    "static/chunks/0wz8~8yzweknx.js"
   ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/your-repo-name//_next/:path+",
-        "destination": "/your-repo-name/_next/:path+"
+        "source": "/torres-portfolio//_next/:path+",
+        "destination": "/torres-portfolio/_next/:path+"
       }
     ],
     "fallback": []
