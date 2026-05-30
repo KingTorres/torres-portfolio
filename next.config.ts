@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const isProd = process.env.NODE_ENV === 'production';
 // Replace 'your-repo-name' with the exact name of your GitHub repository
-const repoName = 'your-repo-name'; 
+const repoName = 'torres-portfolio'; 
 
 const nextConfig: NextConfig = {
   // 1. Force Next.js to compile your app into static HTML/CSS/JS files
